@@ -3,7 +3,7 @@ a circuit to measure fast light responses
 
 ## schematics:
 
-![](<schematics.jpg>)
+![](</schematics.jpg>)
 
 
 ## Materials:
