@@ -1,4 +1,208 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GNDREF #PWR02
+U 1 1 5E56B849
+P 4050 3200
+F 0 "#PWR02" H 4050 2950 50  0001 C CNN
+F 1 "GNDREF" V 4055 3072 50  0000 R CNN
+F 2 "" H 4050 3200 50  0001 C CNN
+F 3 "" H 4050 3200 50  0001 C CNN
+	1    4050 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 3200 4100 3200
+$Comp
+L Device:R_Small R1
+U 1 1 5E56C32C
+P 4350 3850
+F 0 "R1" V 4154 3850 50  0000 C CNN
+F 1 "R_Small" V 4245 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 4350 3850 50  0001 C CNN
+F 3 "~" H 4350 3850 50  0001 C CNN
+	1    4350 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E56D0CF
+P 4450 4150
+F 0 "C1" V 4198 4150 50  0000 C CNN
+F 1 "C" V 4289 4150 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4488 4000 50  0001 C CNN
+F 3 "~" H 4450 4150 50  0001 C CNN
+	1    4450 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Sensor_Optical:BPW21 D1
+U 1 1 5E56DA71
+P 3750 3850
+F 0 "D1" H 3700 4145 50  0000 C CNN
+F 1 "BPW21" H 3700 4054 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-5-2_Window" H 3750 4025 50  0001 C CNN
+F 3 "http://techwww.in.tu-clausthal.de/site/Dokumentation/Dioden/Fotodioden/BPW21-Fotodiode.pdf" H 3700 3850 50  0001 C CNN
+	1    3750 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 3300 4700 3850
+Wire Wire Line
+	4700 3850 4700 4150
+Wire Wire Line
+	4700 4150 4600 4150
+Connection ~ 4700 3850
+Wire Wire Line
+	3750 3650 3750 3400
+Wire Wire Line
+	3750 3400 4050 3400
+Wire Wire Line
+	4050 3850 4050 3400
+Connection ~ 4050 3400
+Wire Wire Line
+	4050 3400 4100 3400
+Wire Wire Line
+	4300 4150 4050 4150
+Wire Wire Line
+	4050 4150 4050 3850
+Connection ~ 4050 3850
+$Comp
+L power:GNDREF #PWR01
+U 1 1 5E56B287
+P 3750 4100
+F 0 "#PWR01" H 3750 3850 50  0001 C CNN
+F 1 "GNDREF" V 3755 3972 50  0000 R CNN
+F 2 "" H 3750 4100 50  0001 C CNN
+F 3 "" H 3750 4100 50  0001 C CNN
+	1    3750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3950 3750 4100
+Wire Wire Line
+	4700 3300 5250 3300
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E56BE75
+P 5450 3300
+F 0 "J2" H 5550 3275 50  0000 L CNN
+F 1 "Conn_Coaxial" H 5550 3184 50  0000 L CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 5450 3300 50  0001 C CNN
+F 3 " ~" H 5450 3300 50  0001 C CNN
+	1    5450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR03
+U 1 1 5E56CBA5
+P 5450 3600
+F 0 "#PWR03" H 5450 3350 50  0001 C CNN
+F 1 "GNDREF" V 5455 3472 50  0000 R CNN
+F 2 "" H 5450 3600 50  0001 C CNN
+F 3 "" H 5450 3600 50  0001 C CNN
+	1    5450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3500 5450 3600
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5E56DA6D
+P 3350 1900
+F 0 "J1" H 3407 2367 50  0000 C CNN
+F 1 "USB_B_Micro" H 3407 2276 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 3500 1850 50  0001 C CNN
+F 3 "~" H 3500 1850 50  0001 C CNN
+	1    3350 1900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3650 2100
+NoConn ~ 3650 2000
+NoConn ~ 3650 1900
+Wire Wire Line
+	3650 1700 3800 1700
+Wire Wire Line
+	3900 1700 3900 1550
+Wire Wire Line
+	3900 1550 4150 1550
+Wire Wire Line
+	4150 2150 4150 2300
+$Comp
+L power:+5V #PWR0101
+U 1 1 5E56FA72
+P 3800 1600
+F 0 "#PWR0101" H 3800 1450 50  0001 C CNN
+F 1 "+5V" H 3815 1773 50  0000 C CNN
+F 2 "" H 3800 1600 50  0001 C CNN
+F 3 "" H 3800 1600 50  0001 C CNN
+	1    3800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1600 3800 1700
+Connection ~ 3800 1700
+Wire Wire Line
+	3800 1700 3900 1700
+Wire Wire Line
+	3250 2300 3350 2300
+Connection ~ 3350 2300
+Wire Wire Line
+	3350 2300 4050 2300
+$Comp
+L Amplifier_Operational:LM358 U1
+U 1 1 5E5798A2
+P 4400 3300
+F 0 "U1" H 4400 3667 50  0000 C CNN
+F 1 "LM358" H 4400 3576 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 4400 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4700 3300
+$Comp
+L Amplifier_Operational:LM358 U1
+U 3 1 5E57D4CD
+P 4250 1850
+F 0 "U1" H 4208 1896 50  0000 L CNN
+F 1 "LM358" H 4208 1805 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 4250 1850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4250 1850 50  0001 C CNN
+	3    4250 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3850 4050 3850
+Wire Wire Line
+	4450 3850 4700 3850
+Text Label 4950 3300 0    50   ~ 0
+BNC+
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5E58FB32
+P 4050 2300
+F 0 "#PWR?" H 4050 2050 50  0001 C CNN
+F 1 "GNDREF" V 4055 2172 50  0000 R CNN
+F 2 "" H 4050 2300 50  0001 C CNN
+F 3 "" H 4050 2300 50  0001 C CNN
+	1    4050 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 2300
+Wire Wire Line
+	4050 2300 4150 2300
 $EndSCHEMATC
