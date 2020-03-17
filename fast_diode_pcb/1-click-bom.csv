@@ -1,0 +1,7 @@
+References,Qty,Description,Manufacturer,MPN,Manufacturer_1,MPN_2,Manufacturer_3,MPN_4,Manufacturer_5,MPN_6,Manufacturer_7,MPN_8,Digikey,Mouser,RS,Newark,Farnell
+J1;,1,USB connector,Amphenol,10104110-0001LF,,,,,,,,,,,714-2344,,
+J2;,1,BNC connector,Molex,73101-0400,,,,,,,,,,,759-5274 ,,
+C1;,1,1pF Capacitor,C315C109B5G5TA,Kemet,,,,,,,,,,,146-3544,,
+R1;,1,1Mohm Resistor ,TE connectivity,LR1F1M0,,,,,,,,,,,149-228,,
+U1;,1,LM358 opamp,ON semiconductor,LM358DR2G,,,,,,,,,,,689-6719,,
+D1;,1,photodiode,Vishay,BPW21R,,,,,,,,,,,708-2813,,
