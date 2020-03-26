@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/andre/repositories/fast-response-diode/fast_diode_pcb/fast_diode_pcb.sch)
-    (date "Tue 17 Mar 2020 22:00:11 GMT")
+    (date "Thu 26 Mar 2020 09:14:13 GMT")
     (tool "Eeschema 5.1.5-52549c5~84~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

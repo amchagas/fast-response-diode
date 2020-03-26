@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 28)
     (zones 0)
     (modules 7)
@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -715,6 +715,9 @@
     )
   )
 
+  (gr_text 1 (at 121.412 104.902 270) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 106.68 114.935) (end 106.68 114.3) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 106.68 116.205) (end 106.68 114.935) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 155.575 116.205) (end 106.68 116.205) (layer Edge.Cuts) (width 0.05))
@@ -777,13 +780,13 @@
   (segment (start 125.73 114.3) (end 125.73 113.03) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 149.86 102.87) (end 146.05 102.87) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 146.05 102.87) (end 138.43 110.49) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 110.595 111.875) (end 110.68 111.79) (width 0.25) (layer F.Cu) (net 3))
-  (segment (start 110.595 112.9775) (end 110.595 111.875) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 110.68 112.8925) (end 110.595 112.9775) (width 0.25) (layer F.Cu) (net 3))
+  (segment (start 110.68 111.79) (end 110.68 112.8925) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 121.285 113.29) (end 121.285 114.09) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 110.68 109.19) (end 117.185 109.19) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 117.185 109.19) (end 121.285 113.29) (width 0.25) (layer F.Cu) (net 4))
 
-  (zone (net 3) (net_name GNDREF) (layer F.Cu) (tstamp 5E57F2F4) (hatch edge 0.508)
+  (zone (net 3) (net_name GNDREF) (layer F.Cu) (tstamp 5E7CD4DF) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
