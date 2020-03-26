@@ -1,16 +1,13 @@
 # fast-response-diode
-a circuit to measure fast light responses
+a circuit to measure fast changing light signals down to hundreds of microseconds
 
-## schematics:
+#### Previous work:
+This board is based on this article <https://www.mikrocontroller.net/articles/Lichtsensor_/_Helligkeitssensor>
 
-![](</schematics.JPG>)
 
 
-## Materials:
+- fast_diode_pcb folder has the PCB files to produce this board as well as the bill of materials.
 
-|Id|Qty|Item|link|
-|--|--|--|--|
-|u1|1|LM358 opamp|<https://uk.rs-online.com/web/p/op-amps/6610546/>|
-|r1|1|1 MOhm resistor|<https://uk.rs-online.com/web/p/through-hole-fixed-resistors/0149228/>|
-|c1|1|1 pF ceramic capacitor|<https://uk.rs-online.com/web/p/ceramic-single-layer-capacitors/8312910/>|
-|d1|1|BPW22 photodiode|<https://uk.rs-online.com/web/p/photodiodes/4155722/?sra=pstk>|
+This board and components can be ordered easily at [kitspace]()
+
+![](/board.jpg)
