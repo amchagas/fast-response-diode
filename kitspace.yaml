@@ -1,1 +1,5 @@
 gerbers: fast_diode_pcb/gerbers
+bom: fast_diode_pcb/1-click-bom.csv
+color: green
+site: "https://github.com/amchagas/fast-response-diode"
+summary: "a fast response diode circuit to measure light changes down to hundreds of microseconds"
