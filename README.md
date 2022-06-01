@@ -8,6 +8,6 @@ This board is based on this article <https://www.mikrocontroller.net/articles/Li
 
 - fast_diode_pcb folder has the PCB files to produce this board as well as the bill of materials.
 
-This board and components can be ordered easily at [kitspace]()
+This board and components can be ordered easily at [kitspace](https://kitspace.org/boards/github.com/amchagas/fast-response-diode/)
 
-![](/board.jpg)
+![picture of fast-response-diode PCB](/board.jpg)
